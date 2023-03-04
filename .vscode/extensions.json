@@ -1,3 +1,12 @@
 {
-  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+  "recommendations": [
+    "ms-vscode.vscode-typescript-next",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "wix.vscode-import-cost",
+    "bracketpaircolordlw.bracket-pair-color-dlw",
+    "robbowen.synthwave-vscode",
+    "pkief.material-icon-theme"
+  ]
 }
