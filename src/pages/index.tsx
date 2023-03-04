@@ -9,7 +9,7 @@ export default function Home() {
         <title>Home | GlamPronto</title>
       </Head>
       <div>
-        <h1>Welcome to Home Page</h1>
+        <h3>Welcome to Home Page</h3>
       </div>
     </>
   );

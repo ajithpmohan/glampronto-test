@@ -1,13 +1,13 @@
-// import Head from 'next/head';
+import Head from 'next/head';
 
 export default function AboutUs() {
   return (
     <>
-      {/* <Head>
+      <Head>
         <title>About Us | GlamPronto</title>
-      </Head> */}
+      </Head>
       <div>
-        <h1>Welcome to AboutUs Page</h1>
+        <h3>Welcome to AboutUs Page</h3>
       </div>
     </>
   );

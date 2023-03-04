@@ -6,6 +6,8 @@ import Header from '@/components/Header';
 import SideBar from '@/components/SideBar';
 import Footer from '@/components/Footer';
 
+import Container from 'react-bootstrap/Container';
+
 // import styles from '@/styles/Layout.module.css';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -18,12 +20,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <NavBar />
+      <hr />
       {/* <main className={styles.container}> */}
       <main>
-        <Header />
-        <SideBar />
-        {children}
-        <Footer />
+        <Container fluid>
+          <Header />
+          <SideBar />
+          {children}
+          <Footer />
+        </Container>
       </main>
     </div>
   );

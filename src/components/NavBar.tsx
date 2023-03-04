@@ -1,20 +1,17 @@
 import React from 'react';
-import Link from 'next/link';
+import Nav from 'react-bootstrap/Nav';
+
 // import styles from '@/styles/NavBar.module.css';
 
 export default function NavBar() {
   return (
-    // <nav className={styles.nav}>
-    <nav>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about-us">About</Link>
-        </li>
-      </ul>
-      <hr />
-    </nav>
+    <Nav defaultActiveKey="/home" as="ul">
+      <Nav.Item as="li">
+        <Nav.Link href="/">Home</Nav.Link>
+      </Nav.Item>
+      <Nav.Item as="li">
+        <Nav.Link href="/about-us">AboutUs</Nav.Link>
+      </Nav.Item>
+    </Nav>
   );
 }
